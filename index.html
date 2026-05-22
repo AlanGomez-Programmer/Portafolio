@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alan Gómez">
+    <link rel="stylesheet" href="./style.css">
+    <title>PORTAFOLIO - ALAN GÓMEZ</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenido">
+            <article class="header__logo">
+                <h1 class="header__nombre">Alan <span>Gómez</span></h1>
+                <p>Programador Full Stack Jr.</p>
+            </article>
+
+            <input type="checkbox" id="menu" class="header__checkbox">
+            <label for="menu" class="header__hamburguer">&#9776;</label>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__links">Inicio</a></li>
+                    <li class="nav__item"><a href="#proyectos" class="nav__links">Proyectos</a></li>
+                    <li class="nav__item"><a href="#conocimientos" class="nav__links">Conocimientos</a></li>
+                    <li class="nav__item"><a href="#sobre_mi" class="nav__links">Sobre mí</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main" id="inicio">
+        <section class="presentacion" >
+            <div class="hero">
+                <div class="hero__imagen">
+                    <img src="./images/IMG_0160.jpg" alt="mi_foto">
+                </div>
+                <div class="hero__contenido">
+                    <h1 class="hero__title">Bienvenido</h1>
+                    <p class="hero__parrafo">
+                        Hola, mi nombre es Alan Gómez y soy un joven de 19 años de edad que le gusta saber sobre el mundo de la 
+                        programación y de la tecnología.
+                    </p>
+                    <p class="hero__parrafo">
+                        Soy un estudiante de la universidad de San Carlos de Guatemala y estoy estudiando la carrera de Ingenieria 
+                        en Ciencias y Sistemas. <br>  Actualmente estoy estudiando programación en CampusLands, para formarme como un <strong>Desarrollador full stack jr.</strong>
+                    </p>
+                    <article class="hero__iconos">
+                        <a href="https://github.com/AlanGomez-Programmer" target="_blank">
+                            <img src="./images/github white.png" alt="github" class="hero__icono">
+                        </a>
+                        <a href="https://www.linkedin.com/in/alan-gomez-763163320/" target="_blank">
+                            <img src="./images/linkedin.png" alt="github" class="hero__icono">
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre_mi" id="sobre_mi">
+            <h2 class="titulo">SOBRE MÍ</h2>
+            <div class="sobre_mi__contenido">
+                <p>
+                    Soy <strong>Alan Gómez</strong>, un apasionado de la tecnología y del mundo del cambio tecnólogico.
+                    Me gusta aprender nuevas cosas para poder mejorar mis habilidades.
+                </p>
+                <p>
+
+                    Actualmente estoy aprendiendo html y css, en campusLands. Anteriormente aprendí sobre python y sobre el
+                    marco de trabajo SCRUM, también he aprendido sobre las habilidades blandas y como se aplican en la vida. 
+                </p>
+                <P>
+                    Me gusta saber el trasfondo de las aplicaciones, como es la estructura de base de datos y 
+                    como se manejan las mismas
+                </p>
+            </div>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+            <h2 class="titulo">PROYECTOS</h2>
+            <div class="proyectos__contenido">
+                <article class="tarjeta">
+                    <video src="./videos/to_do_list.mkv" class="tarjeta__video" controls>Lista de Tareas</video>
+                    <h3 class="tarjeta__titulo">Lista de Tareas</h3>
+                    <p class="tarjeta__descripcion">Es una aplicación en terminal donde se registran las tareas y se cambia el estado de las tareas</p>
+                    <div class="tarjeta__tecnologia">
+                        <p>Teconologías utilizadas: </p>
+                        <img src="./images/python.png" alt="python" class="hero__icono">
+                        <img src="./images/git.png" alt="git" class="hero__icono">
+                    </div>
+                    <div class="boton">
+                        <a href="https://github.com/AlanGomez-Programmer/To-Do-list--Python" class="proyecto__boton" target="_blank">Ver Código</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <video src="./videos/ivnentario.mkv" class="tarjeta__video" controls>Registro de inventario</video>
+                    <h3 class="tarjeta__titulo">Registro de Inventario</h3>
+                    <p class="tarjeta__descripcion">Aplicación que se utiliza el sistema CRUD para el inventario de una tienda</p>
+                    <div class="tarjeta__tecnologia">
+                        <p>Teconologías utilizadas: </p>
+                        <img src="./images/python.png" alt="python" class="hero__icono">
+                        <img src="./images/git.png" alt="git" class="hero__icono">
+                    </div>
+                    <div class="boton">
+                        <a href="https://github.com/AlanGomez-Programmer/inventario_tienda-Python" class="proyecto__boton" target="_blank">Ver Código</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <video src="/videos/biblioteca_aplicaciones.mkv" class="tarjeta__video" controls>Biblioteca de aplicaciones</video>
+                    <h3 class="tarjeta__titulo">Biblioteca de aplicaciones</h3>
+                    <p class="tarjeta__descripcion"> Página web donde puedes almacenar las páginas favoritas, sin necesidad de escribirlas en el buscador</p>
+                    <div class="tarjeta__tecnologia">
+                        <p>Teconología utilizadas: </p>
+                        <img src="/images/html.png" alt="html" class="hero__icono">
+                        <img src="/images/php.png" alt="php" class="hero__icono">
+                        <img src="/images/mysql_workbench.png" alt="mysql" class="hero__icono">
+                        <img src="/images/xampp.png" alt="xampp" class="hero__icono">
+                    </div>
+                    <div class="boton">
+                        <a href="https://github.com/AlanGomez-Programmer/biblioteca" class="proyecto__boton" target="_blank">Ver Código</a>
+                    </div>
+                </article>     
+            </div>
+        </section>
+
+        <section class="conocimientos" id="conocimientos">
+            <h2 class="titulo"> CONOCIMIENTOS</h2>
+            <div class="conocimientos__contenido">
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/python.png" alt="python" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">PYTHON</h3>
+                </article>
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/git.png" alt="git" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">GIT</h3>
+                    <div></div>
+                </article>
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/html.png" alt="hmtl" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">HTML</h3>
+                </article>
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/css.png" alt="css" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">CSS</h3>
+                </article>
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/mysql_workbench.png" alt="Mysql" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">My SQL</h3>
+                </article>
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/Excel.png" alt="excel" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">Excel</h3>
+                </article>
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/xampp.png" alt="xampp" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">XAMPP</h3>
+                </article>
+                <article class="conocimientos__tarjeta">
+                    <img src="./images/php.png" alt="php" class="tarjeta__img">
+                    <h3 class="conocimientos__titulo">PHP</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <h2 class="titulo">HABILIDADES BLANDAS</h2>
+            <div class="habilidades__contenido">
+                <article class="habilidades__tarjeta">
+                    <p>Flexibilidad</p>
+                </article>
+                <article class="habilidades__tarjeta">
+                    <p>Productividad</p>
+                </article>
+                <article class="habilidades__tarjeta">
+                    <p>Proactivo</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contactame">
+            <h2 class="titulo">CONTACTAME</h2>
+            <div class="contactame__contenido">
+                <article class="contactame__tarjeta">
+                    <div class="contactame__tarjeta__titulo">
+                        <img src="./images/github white.png" alt="github" class="hero__icono">
+                        <h2>GITHUB</h2>
+                    </div>
+                    <a href="https://github.com/AlanGomez-Programmer" target="_blank">AlanGomez-Programmer</a>
+                </article>
+                <article class="contactame__tarjeta">
+                    <div class="contactame__tarjeta__titulo">
+                        <img src="./images/linkedin.png" alt="linkedIn" class="hero__icono">
+                        <h2>LinkIn</h2>
+                    </div>
+                    <a href="https://www.linkedin.com/in/alan-gomez-763163320" target="_blank">alan-gomez-763163320</a>
+                </article>
+                <article class="contactame__tarjeta">
+                    <div class="contactame__tarjeta__titulo">
+                        <img src="./images/gmail.png" alt="gmail" class="hero__icono">
+                        <h2>GMAIL</h2>
+                    </div>
+                    <a href="mailto:alan.s.g.j.2006@gmail.com" target="_blank">alan.s.g.j.2006@gmail.com</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>
+            © 2026 Alan Gómez |
+            Desarrollador Full Stack Jr.
+        </p>
+    </footer>
+</body>
+</html>
