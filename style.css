@@ -312,7 +312,7 @@ body {
 .habilidades__tarjeta {
     background-color: var(--fondo-secundario);
     border: 2px solid var(--bordes);
-    border-radius: 1.5rem;
+    border-radius: 0 2rem;
     padding: 2rem;
     transition: 0.3s;
     text-align: center;
@@ -334,6 +334,7 @@ body {
     max-width: 1200px;
     margin: auto;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
